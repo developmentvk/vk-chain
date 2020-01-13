@@ -12,7 +12,7 @@
   "engines": {
     "node": "v12.14.1"
   },
-  "jest" : {
+  "jest": {
     "testEnvironment": "node"
   },
   "repository": {

@@ -24,7 +24,7 @@ class Blockchain {
             console.log('Received chain is not longer than the current chain.');
             return;
         } else if (!this.isValidChain(newChain)) {
-            console('The received chain is not valid.');
+            console.log('The received chain is not valid.');
             return;
         }
         console.log('Replacing blockchain with the new chain.');
